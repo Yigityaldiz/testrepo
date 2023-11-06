@@ -13,11 +13,11 @@
       }
     ],
     "env": {
-      "MONGODB_URI": "@mongodb_uri"
+      "MONGODB_URI": "mongodb+srv://yyaz:5KeiZM2khb9wX5vK@coinapp.shbaqet.mongodb.net?retryWrites=true&w=majority"
     },
     "build": {
       "env": {
-        "MONGODB_URI": "@mongodb_uri"
+        "MONGODB_URI": "mongodb+srv://yyaz:5KeiZM2khb9wX5vK@coinapp.shbaqet.mongodb.net?retryWrites=true&w=majority"
       }
     }
   }
