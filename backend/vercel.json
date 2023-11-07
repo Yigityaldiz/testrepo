@@ -11,14 +11,7 @@
         "src": "/(.*)",
         "dest": "/server.js"
       }
-    ],
-    "env": {
-      "MONGODB_URI" :"mongodb+srv://yigityaldiz:wwNG9wa0X1hEQVEc@cluster2.jmshnbe.mongodb.net/?retryWrites=true&w=majority"
-    },
-    "build": {
-      "env": {
-        "MONGODB_URI": "mongodb+srv://yyaz:5KeiZM2khb9wX5vK@coinapp.shbaqet.mongodb.net?retryWrites=true&w=majority"
-      }
-    }
+    ]
+    
   }
   
