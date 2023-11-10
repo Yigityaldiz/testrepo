@@ -5,8 +5,5 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ],
-  "env": {
-    "MONGODB_URI": "mongodb+srv://yigityaldiz:wwNG9wa0X1hEQVEc@cluster2.jmshnbe.mongodb.net/?retryWrites=true&w=majority"
-  }
+  ]
 }
