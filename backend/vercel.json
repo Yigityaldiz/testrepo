@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "Server.js",
+        "use": "@now/node-server"
+      }
+    ],
+    "routes": [
+      { "src": "/get", "dest": "/TaskRoutes.js" },
+      { "src": "/save", "dest": "/TaskRoutes.js" },
+      { "src": "/update/:id", "dest": "/TaskRoutes.js" },
+      { "src": "/delete/:id", "dest": "/TaskRoutes.js" }
+    ],
+    "env": {
+      "MONGODB_URI": "mongodb+srv://yigityaldiz:wwNG9wa0X1hEQVEc@cluster2.jmshnbe.mongodb.net/?retryWrites=true&w=majority"
+    }
+  }
