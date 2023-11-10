@@ -1,11 +1,6 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "Server.js",
-        "use": "@vercel/node"
-      }
-    ],
+   
     "routes": [
       { "src": "/get", "dest": "/TaskRoutes.js" },
       { "src": "/save", "dest": "/TaskRoutes.js" },
