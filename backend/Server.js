@@ -25,4 +25,4 @@ app.use("/", router);
 
 app.listen(PORT, () => console.log(`Listening port : ${PORT}`));
 
-console.log("add");
+console.log(process.env.PORT);
