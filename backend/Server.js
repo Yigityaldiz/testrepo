@@ -11,7 +11,10 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect(process.env.MONGODB_URI)
+mongoose.connect(process.env.MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
   .then(() => console.log("Mongo is active"))
   .catch((err) => console.log("MongoDb connect problem ", err));
 
@@ -22,4 +25,4 @@ app.use("/", router);
 
 app.listen(PORT, () => console.log(`Listening port : ${PORT}`));
 
-
+console.log("add");
