@@ -1,5 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const TaskRoutes = require('./routes/TaskRoute')
+
 require("dotenv").config();
 
 const cors = require("cors");
@@ -21,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 // Remove the useRouter function, it's not needed.
 
 // Use the router directly
-app.use("/", router);
+app.use("/", TaskRoutes );
 
 app.listen(PORT, () => console.log(`Listening port : ${PORT}`));
 
